@@ -19,21 +19,26 @@
 """
 
 n = int(input("Введите число элементов первого массива: "))
+# lst_1 = [3, 1, 3, 4, 2, 4, 12]
 
-lst_1 = []
-for i in range(n):
-    numb = int(input('Введите очередную цифру: '))
-    lst_1.append(numb)
+# lst_1 = list(map(int, input('Вводим по одной цифре через пробел: ').split()))
+
+# [int(i) for i in input().split()]
+
+#lst_1 = []
+#for i in range(n):
+    #numb = int(input('Введите очередную цифру: '))
+    #lst_1.append(numb)
 
 lst_1 = [int(input('Введите очередную цифру: ')) for i in range(n)]
 
 
 m = int(input("Введите число элементов второго массива: "))
 
-lst_2 = []
-for i in range(n):
-    numb = int(input('Введите очередную цифру: '))
-    lst_2.append(numb)
+#lst_2 = []
+#for i in range(n):
+    #numb = int(input('Введите очередную цифру: '))
+    #lst_2.append(numb)
 
 lst_2 = [int(input('Введите очередную цифру: ')) for j in range(m)]
 

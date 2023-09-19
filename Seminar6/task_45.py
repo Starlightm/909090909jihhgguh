@@ -45,4 +45,4 @@ def gen_friendlys(k):
     return res
 
 
-print(gen_friendlys(300))
+print(gen_friendlys(2000))
