@@ -10,15 +10,15 @@ Output: 1 3 3 3 1
 """
 
 lst = [1, 3, 3, 3, 4]
-min_el = min(lst)
-max_el = max(lst)
-res = []
-for el in lst:
-    if el == max_el:
-        res.append(min_el)
-    else:
-        res.append(el)
-print(res)
+# min_el = min(lst)
+# max_el = max(lst)
+# res = []
+# for el in lst:
+#     if el == max_el:
+#         res.append(min_el)
+#     else:
+#         res.append(el)
+# print(res)
 
 
 def recur(lst, res=[], min_el=min(lst), max_el=max(lst)):
@@ -31,8 +31,6 @@ def recur(lst, res=[], min_el=min(lst), max_el=max(lst)):
         res.append(lst[0])
 
     return recur(lst[1:])
-
-
 
 print(recur(lst))
 

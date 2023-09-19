@@ -19,7 +19,7 @@ def reverse(num):
         return str(num)
     return str(num % 10) + reverse(num // 10)
 
-print(reverse(1230))
+print(reverse(1239))
 
 
 """
